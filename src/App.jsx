@@ -26,7 +26,7 @@ function App() {
           <div className='md:w-1/2 flex-grow mb-16 lg:pr-24 md:pr-16 text-center md:text-left'>
             <h1 className='text-3xl sm:text-6xl text-gray-900 font-medium mb-4'>Naka Saya<br />
               My Portfolio Website</h1>
-            <p className='mb-8 leading-relaxed'>現在、webエンジニアとしてデビューしたてのほやほやです。得意な言語はHTML, CCS, JavaScript, TypeScript, PHP, SQL, Reactなどweb全般とPythonです。自身が作ったものを公開しておりますので、ぜひ見ていってください。</p>
+            <p className='mb-8 leading-relaxed'>例：現在、webエンジニアとしてデビューしたてのほやほやです。得意な言語はHTML, CCS, JavaScript, TypeScript, PHP, SQL, Reactなどweb全般とPythonです。自身が作ったものを公開しておりますので、ぜひ見ていってください。</p>
             <button className='text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>Contact Me</button>
           </div>
           <div className='md:w-1/2 lg:max-w-lg w-5/6'>
@@ -38,9 +38,9 @@ function App() {
         <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20'>
             <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>About Me</h1>
-            <p className='pb-10'>これまで、マーケティング業界に数年財務分析を行っていました。現在はIT業界でシステム構築に従事しながら副業としてwebサイトやwebAppを個人として受注しています。また投資やコンサルティングも積極的に行っており、ご相談されたい方はコンタクトお待ちしています。
+            <p className='pb-10'>例：これまで、マーケティング業界に数年財務分析を行っていました。現在はIT業界でシステム構築に従事しながら副業としてwebサイトやwebAppを個人として受注しています。また投資やコンサルティングも積極的に行っており、ご相談されたい方はコンタクトお待ちしています。
             </p>
-            <p>いかに個人としての成果物を公開いています。主にSNSなどのChatアプリの構築をReactのJSやTSで実装しています。また、Pythonを使ってAIによる株価の予測サイトを構築しました。また数件の事務所のwebサイトの構築など多岐にわたります。</p>
+            <p>例：いかに個人としての成果物を公開いています。主にSNSなどのChatアプリの構築をReactのJSやTSで実装しています。また、Pythonを使ってAIによる株価の予測サイトを構築しました。また数件の事務所のwebサイトの構築など多岐にわたります。</p>
           </div>
           {/* カードのdivタグ */}
           <div className='flex flex-wrap'>
@@ -141,6 +141,36 @@ function App() {
                   <p>説明文</p>
                   <a href="#" className='mt-3 text-green-500 items-center'>もっと見る　→</a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='text-gray-700 border-t border-gray-200'>
+        <div className='container px-5 py-24 mx-auto flex flex-wrap'>
+          {/* left side */}
+          <div className='mb-10 lg:mb-0 w-full lg:w-1/2 flex justify-center'>
+            <img src="./img/pc.jpg" alt="" className='rounded' />
+          </div>
+          {/* rightside */}
+          <div className='lg:pl-12 lg:py-6 w-full lg:w-1/2'>
+            <h1 className='text-2x1 sm:text-3xl font-medium text-gray-900 mb-10 text-center lg:text-left'>My Skills</h1>
+            <div>
+              <h2>HTML</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white ' style={{ width: "85%" }}>85%</div>
+              </div>
+              <h2>JavaScript</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-orange-600 text-xs leading-none py-1 text-center text-white ' style={{ width: "75%" }}>75%</div>
+              </div>
+              <h2>React</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-blue-600 text-xs leading-none py-1 text-center text-white ' style={{ width: "50%" }}>50%</div>
+              </div>
+              <h2>Python</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-yellow-600 text-xs leading-none py-1 text-center text-white ' style={{ width: "10%" }}>10%</div>
               </div>
             </div>
           </div>
