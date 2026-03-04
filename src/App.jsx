@@ -16,8 +16,8 @@ function App() {
           <nav className='md:ml-auto text-base'>
             <a href="#home" className='mr-5 hover:text-blue-400 duration-300'>Home</a>
             <a href="#about" className='mr-5 hover:text-blue-400 duration-300'>About</a>
-            <a href="#skills" className='mr-5 hover:text-blue-400 duration-300'>Skills</a>
-            <a href="#blog" className='hover:text-blue-400 duration-300'>Blog</a>
+            {/* <a href="#skills" className='mr-5 hover:text-blue-400 duration-300'>Skills</a>
+            <a href="#blog" className='hover:text-blue-400 duration-300'>Blog</a> */}
           </nav>
         </div>
       </header>
@@ -26,11 +26,11 @@ function App() {
           <div className='md:w-1/2 flex-grow mb-16 lg:pr-24 md:pr-16 text-center md:text-left'>
             <h1 className='text-3xl sm:text-6xl text-gray-900 font-medium mb-4'>Naka Saya<br />
               My Portfolio Website</h1>
-            <p className='mb-8 leading-relaxed'>現在、ウェブエンジニアとしてデビューすべく職業訓練校にて学習中です。<br />学習した内容はHTML, CCS, JavaScript, TypeScript, PHP, SQL, Reactなどweb全般とPythonです。自身が作ったものを公開しておりますので、ぜひご覧になってください。</p>
-            <button className='text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>Contact Me</button>
+            <p className='mb-8 leading-relaxed'>現在、ウェブエンジニアとしてデビューすべく職業訓練校にて学習中です。<br />学習した内容はHTML, CCS, JavaScript, PHP, SQL, Reactなどweb全般。そして現在はPython, TypeScriptを学習しています。自身が作ったものを公開しておりますので、ぜひご覧になってください。</p>
+            <button className='text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>My GitHub Account</button>
           </div>
-          <div className='md:w-1/2 lg:max-w-lg w-5/6'>
-            <img src="./img/myPicture.png" alt="" />
+          <div className='md:w-1/3 lg:max-w-lg w-5/6'>
+            <img src="public/img/1_48_4_0_593_76_6_259_727_0_0_0_p1.svg" alt="" />
           </div>
         </div>
       </section>
@@ -38,9 +38,9 @@ function App() {
         <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20'>
             <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>About Me</h1>
-            <p className='pb-10'>例：これまで、マーケティング業界に数年財務分析を行っていました。現在はIT業界でシステム構築に従事しながら副業としてwebサイトやwebAppを個人として受注しています。また投資やコンサルティングも積極的に行っており、ご相談されたい方はコンタクトお待ちしています。
-            </p>
-            <p>例：いかに個人としての成果物を公開いています。主にSNSなどのChatアプリの構築をReactのJSやTSで実装しています。また、Pythonを使ってAIによる株価の予測サイトを構築しました。また数件の事務所のwebサイトの構築など多岐にわたります。</p>
+            <p className='pb-10 max-w-2xl mx-auto text-center'>これまで看護師として主に病院で働いてきました。働く中で必要な情報を探すために多くの時間を費やす場面が多く、情報の分断や業務設計の非効率さを感じてきました。</p>
+            <p className='pb-10 max-w-2xl mx-auto text-center'>「もし情報が整理され必要な内容がすぐに把握できたら、もっと患者さんと向き合う時間を作れるのではないか」と考えたことが、ITを学び始めたきっかけです。</p>
+            <p className='max-w-2xl mx-auto text-center'>現在はWebエンジニアとしての基礎を学びながら、将来的には医療現場の課題を技術で解決できる人材になることを目標としています。</p>
           </div>
           {/* カードのdivタグ */}
           <div className='flex flex-wrap'>
@@ -53,8 +53,7 @@ function App() {
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                      xmlns="http://www.w3.org/2000/svg">
                       <path d="M3 3H11V11H3V3Z" fill="currentColor" />
                       <path d="M3 13H11V21H3V13Z" fill="currentColor" />
                       <path d="M13 3H21V11H13V3Z" fill="currentColor" />
