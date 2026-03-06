@@ -63,7 +63,7 @@ function App() {
                   <h2 className='text-gray-900 text-lg font-medium ml-2'>作品名</h2>
                 </div>
                 <div>
-                  <p>説明文例：ReactとJavaScriptで投稿機能つきのChatアプリ、仕様はReact, JavaScript, html, css, firebase, AWS, ログイン・ログアウト認証機能、メッセージ投稿機能、検索機能、お気にいり登録機能を実装しています。</p>
+                  <p>説明文例：ReactとJavaScriptで投稿機能つきのChatアプリ、仕様はReact, JavaScript, html, css, firebase, ログイン・ログアウト認証機能を実装しています。</p>
                   <a href="#" className='mt-3 text-green-500 items-center'>もっと見る　→</a>
                 </div>
               </div>
